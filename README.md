@@ -47,30 +47,6 @@ The supplied dataset contains 3,179 daily observations and six fields:
 
 The supplied file was checked for missing values and duplicate trading dates. No missing values or duplicate dates were found in the supplied 3,179-row dataset.
 
-## Project Structure
-
-```text
-sony-stock-analytics/
-├── README.md
-├── data/
-│   ├── raw/
-│   │   └── sony_stock_data.csv
-│   └── cleaned/
-│       └── sony_stock_cleaned.csv
-├── excel/
-│   └── Sony_Stock_Analysis.xlsx
-├── sql/
-│   ├── 01_create_database.sql
-│   ├── 02_create_table.sql
-│   ├── 03_data_cleaning.sql
-│   ├── 04_basic_analysis.sql
-│   ├── 05_advanced_analysis.sql
-│   └── 06_investment_analysis.sql
-├── dashboard/
-├── documentation/
-└── screenshots/
-```
-
 ## Data Preparation
 
 The cleaned dataset adds analytical fields including:
